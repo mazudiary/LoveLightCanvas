@@ -1,0 +1,42 @@
+/* mediaqueries.css */
+
+/* Media Queries for content.html */
+@media (max-width: 768px) {
+    .message {
+      top: 30%; /* Adjust position for smaller screens */
+      font-size: calc(1em + 1.5vw);
+    }
+    .phrase {
+      top: 45%; /* Adjust position for smaller screens */
+      font-size: calc(0.8em + 1vw);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .message {
+      top: 35%;
+      font-size: calc(0.8em + 1.2vw);
+    }
+    .phrase {
+      top: 42%;
+      font-size: calc(0.6em + 0.8vw);
+    }
+    .animated-word {
+      padding: 0 5px; /* Further reduce padding */
+    }
+  }
+  
+  /* Media Queries for index.html */
+  @media (max-width: 768px) {
+    p {
+      font-size: 18px; /* Smaller font size for tablets */
+      top: 65%; /* Adjust position for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    p {
+      font-size: 14px; /* Smaller font size for mobile */
+      top: 70%; /* Adjust position for smaller screens */
+    }
+  }

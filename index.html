@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Butterfly</title>
+  <meta name="generator" content="editplus">
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body class="index">
+  <div class="box">
+    <canvas id="pinkboard"></canvas>
+    <p id="heart-text">Touch My Heart With Your Love</p>
+  </div>
+  <div class="message" id="message" style="display: none;">I <span class="animated-word" id="word">love</span> you, Butterfly ❤️</div>
+  <div class="phrase" id="phrase" style="display: none;"></div>
+  <audio id="bgmusic" loop>
+    <source src="assets/music/love_song.mp3" type="audio/mpeg">
+  </audio>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
